@@ -1,0 +1,48 @@
+.code:hover {
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: .2s;
+}
+
+.active {
+    border: 1px solid red;
+    border-radius: 10px;
+    background: #83838354;
+}
+
+.peeps {
+    background: #b4b4b4;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.topPeep {
+    border-top: 3px solid black;
+}
+.bottomPeep {
+    border-bottom: 3px solid black;
+}
+
+.name {
+    border-right: 2px solid black;
+    text-align: center;
+}
+
+.jumbotron {
+    text-align: center;
+    padding-top: 13%;
+    padding-left: 2%;
+    padding-right: 2%;
+    /*background: radial-gradient(circle,#000000, #e9c789, #0000ff);*/
+    background-image: url("Nebulabg.jpg");
+    color: #ffffff;
+}
+
+u {
+    text-decoration: none;
+    color: #ff0000;
+}
+
+body {
+    background: linear-gradient(0.4turn, #ff0000, #aaa2d6) fixed;
+}
